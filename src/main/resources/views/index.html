@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img th:src="|data:image/jpeg;base64,${imagePath}|" width="150px">
+<h1 th:text="${message}"/>
+<img th:src="@{images/iron-man.png}"/>
+</body>
+</html>
